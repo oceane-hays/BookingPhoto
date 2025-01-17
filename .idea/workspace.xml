@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fbbaab-01cc-4512-8062-6445c56a873a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/booking-app/src/commun/Button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-app/src/commun/Button/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-app/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/booking-app/src/pages/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/booking-app/src/pages/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/booking-app/src/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/booking-app/src/pages/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/oceanehays/Documents/Application/BookingPhoto/booking-app/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/oceanehays/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oceanehays/Documents/Application/BookingPhoto/booking-app/commun&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/oceanehays/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/booking-app/commun" />
       <recent name="$PROJECT_DIR$/booking-app/src/pages" />
       <recent name="$PROJECT_DIR$/booking-photo/assets/image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/booking-app/src" />
+      <recent name="$PROJECT_DIR$/booking-app/" />
       <recent name="$PROJECT_DIR$/booking-app/src/pages" />
     </key>
   </component>
@@ -88,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1736821125406</updated>
       <workItem from="1736821126438" duration="6136000" />
-      <workItem from="1736892361354" duration="780000" />
+      <workItem from="1736892361354" duration="3956000" />
+      <workItem from="1736917175512" duration="5000" />
     </task>
     <servers />
   </component>
