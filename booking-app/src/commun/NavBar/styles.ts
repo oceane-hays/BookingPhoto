@@ -20,6 +20,7 @@ export const StyledDivision = styled.div`
     }
     
     p {
+        font-family: Eleanor,serif;
         color: #D9D9D9;
         font-size: 16px;
         font-weight: 500;

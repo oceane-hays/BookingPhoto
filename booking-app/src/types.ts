@@ -15,3 +15,9 @@ export interface ContainerProps {
 export interface LineContainerProps {
     children: React.ReactNode;
 }
+
+export interface PortfolioCardProps {
+    title?: string;
+    image?: string;
+    onClick?: () => void;
+}

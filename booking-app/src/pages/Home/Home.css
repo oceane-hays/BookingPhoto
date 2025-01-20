@@ -27,3 +27,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+@font-face {
+  font-family: "Eleanor";   /*Can be any text*/
+  src: local("Eleanor"),
+  url("../../../public/fonts/eleanor/Eleanor.ttf") format("truetype");
+}

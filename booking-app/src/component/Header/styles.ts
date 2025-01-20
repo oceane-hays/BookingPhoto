@@ -8,8 +8,9 @@ export const StyledHeader = styled.header`
     .image-container {
         position: relative;
         width: 100%;
-        height: 1000px;
+        height: 950px;
         overflow: hidden;
+        resize: block;
 
         img {
             width: 100%;
@@ -27,6 +28,7 @@ export const StyledHeader = styled.header`
         }
 
         h1 {
+            font-family: Eleanor;
             top: 30%;
             font-weight: 400;
             font-size: 4rem;
@@ -64,7 +66,7 @@ export const StyledHeader = styled.header`
 
 
 
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
         .image-container {
             height: 40vh;
 
@@ -90,5 +92,7 @@ export const StyledHeader = styled.header`
             }
         }
     }
+    
 `;
+
 

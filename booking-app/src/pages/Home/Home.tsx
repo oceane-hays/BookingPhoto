@@ -1,4 +1,7 @@
 import './Home.css'
+
+import './../../../public/fonts/eleanor/Eleanor.ttf'
+
 import Header from "../../component/Header/Header.tsx";
 import Footer from "../../component/Footer/Footer.tsx";
 import AboutMe from "../../component/AboutMe/AboutMe.tsx";
