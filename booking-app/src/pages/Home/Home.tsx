@@ -8,11 +8,18 @@ import AboutMe from "../../component/AboutMe/AboutMe.tsx";
 import Portfolio from "../../component/Portfolio/Portfolio.tsx";
 import Prices from "../../component/Prices/Prices.tsx";
 import Contact from "../../component/Contact/Contact.tsx";
+import Front from "../../component/Front/Front.tsx";
 
 function Home() {
+
+    const handleNav = () => {
+
+    }
+
     return (
         <div className="home-layout">
-            <Header />
+            <Header handleNav={handleNav} />
+            <Front />
             <AboutMe />
             <Portfolio />
             <Prices />

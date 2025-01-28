@@ -1,21 +1,29 @@
 import { StyledHeader } from "./styles";
 import NavBar from "../../commun/NavBar/NavBar.tsx";
 import './../../../public/fonts/eleanor/Eleanor.ttf'
+import {useEffect, useState} from "react";
 
 
-const Header = () => {
+const Header = ( handleNav : () => void) => {
+
+    const [scrolled, setScrolled] = useState(false)
+
+    const changeScroll = () => {
+        window.scrollY > 0 ? setScrolled(true) : setScrolled(false)
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", changeScroll)
+        return () => {
+            window.removeEventListener("scroll", changeScroll)
+        }
+    }, [])
+
     return (
-        <StyledHeader>
-            <NavBar/>
-            <div className="image-container">
-                <img src="./../../../public/img/img.png" alt="Background" />
-                <h1 aria-label="Photographer Name">ARNAULD METCHIDJOU</h1>
-                <h2 aria-label="Profession">PHOTOGRAPHE</h2>
-
-            </div>
-
+        <StyledHeader scrolled={scrolled}>
+            <NavBar handleNav={handleNav} scrolled={scrolled}/>
         </StyledHeader>
-    );
+    )
 };
 
 export default Header;

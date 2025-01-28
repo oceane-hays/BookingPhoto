@@ -21,3 +21,8 @@ export interface PortfolioCardProps {
     image?: string;
     onClick?: () => void;
 }
+
+export interface NavBarProps {
+    handleNav?: () => void;
+    scrolled?: boolean;
+}

@@ -1,23 +1,21 @@
 import {StyledDivision} from "./styles.ts";
+import {NavBarProps} from "../../types.ts";
 
-export default function NavBar(handleRoute : () => void) {
+export default function NavBar({ handleNav, scrolled } : NavBarProps) {
+
+    const block : string[] = ['À PROPOS', 'PORTFOLIO', 'TARIFS', 'CONTACT']
+
     return (
-        <StyledDivision>
-            <div onClick={handleRoute}>
-                <p>À PROPOS</p>
-            </div>
+        <StyledDivision scrolled={scrolled}>
+            <ul>
+                {
+                    block.map((page : string) => (
+                            <li onClick={handleNav}>{page}</li>
+                        )
+                    )
+                }
+            </ul>
 
-            <div onClick={handleRoute}>
-                <p>PORTFOLIO</p>
-            </div>
-
-            <div onClick={handleRoute}>
-                <p>TARIFS</p>
-            </div>
-
-            <div onClick={handleRoute}>
-                <p>CONTACT</p>
-            </div>
         </StyledDivision>
     )
 }

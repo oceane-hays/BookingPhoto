@@ -1,98 +1,29 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.header<{ scrolled: boolean }>`
     width: 100%;
-    background-color: #fff;
-    position: relative;
+    background-color: ${({ scrolled }) => (scrolled ? "#d9d9d9" : "transparent")};
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 
-    .image-container {
-        position: relative;
-        width: 100%;
-        height: 950px;
-        overflow: hidden;
-        resize: block;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        h1, h2 {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #D9D9D9;
-            text-align: center;
-            width: 100%;
-        }
-
-        h1 {
-            font-family: Eleanor;
-            top: 30%;
-            font-weight: 400;
-            font-size: 4rem;
-        }
-
-        h2 {
-            top: 50%;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-    }
-
-    .line-container {
+    .tab-bar {
+        flex: 1;
+        align-items: center;
+        background-color: #000;
         position: absolute;
-        bottom: 20px;
+        top: 0;
         left: 0;
         right: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-        hr {
-            border: 2px solid #000;
-            width: 40%;
-            border-radius: 5px;
-            height: 0px;
-        }
-        img {
-            height: 24px;
-            width: 24px;
-            vertical-align: middle;
-        }
+        z-index: 1000;
+        transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-
-
-
-    @media (max-width: 900px) {
-        .image-container {
-            height: 40vh;
-
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-
-        .line-container {
-            bottom: 10px;
-
-            p {
-                width: 90%;
-            }
-
-            img {
-                height: 20px;
-                width: 20px;
-            }
-        }
+    .tab-bar.scrolled {
+        background-color: #d9d9d9;
     }
-    
-`;
-
+`
 
