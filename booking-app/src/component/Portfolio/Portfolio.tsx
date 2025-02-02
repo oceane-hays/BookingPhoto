@@ -1,5 +1,5 @@
 import {StyledPortfolio} from "./styles.ts";
-import PortfolioCard from "../PortfolioCard/PortfolioCard.tsx";
+import PortfolioCard from "./PortfolioCard/PortfolioCard.tsx";
 
 export default function Portfolio() {
     return (

@@ -1,13 +1,24 @@
 import styled from "styled-components";
 
 export const StyledAboutme = styled.div`
-    background-color: #040404;
-    position: relative;
-    flex-direction: column;
+    background-color: #252121;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 2rem 0 2rem 0; //top right bottom left
+
+    padding: 2rem; //top right bottom left
+    
+    section {
+        padding: 1rem 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    
+    .photographe {
+        border-radius: 10px;
+        width: auto;
+        height: 440px;
+    }
     
     .aboutMe-text {
         width: 50%;
@@ -30,4 +41,33 @@ export const StyledAboutme = styled.div`
         }
     }
 `;
+
+
+export const StyledPolicyDisplay = styled.div`
+    padding: 60px 13px 0px 13px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-collapse: collapse;
+    
+    div {
+        padding: 10px 13px 10px 13px;
+        color: #d9d9d9;
+        font-family: Eleanor,serif;
+        border-right: 2px solid #d9d9d9;
+        
+        h2 {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        
+        p span {
+            color: red;
+        }
+
+        a {
+            color: #d9d9d9;
+            font-family: Eleanor, serif;
+        }
+    }
+`
 

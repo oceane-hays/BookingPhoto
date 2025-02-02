@@ -8,7 +8,7 @@ export interface ButtonProps {
 }
 
 export interface ContainerProps {
-    border?: boolean;
+    title: string;
     children: React.ReactNode;
 }
 

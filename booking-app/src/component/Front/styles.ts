@@ -20,6 +20,7 @@ export const StyledDiv = styled.div`
             color: #D9D9D9;
             text-align: center;
             width: 100%;
+            font-weight: bold;
         }
 
         h1 {

@@ -9,7 +9,7 @@ export const StyledDivision = styled.div<{ scrolled: boolean }>`
     
     li {
         font-family: Eleanor,serif;
-        color: ${({ scrolled }) => (scrolled ? "#000" : "#d9d9d9")};;
+        color: ${({ scrolled }) => (scrolled ? "#d9d9d9" : "#d9d9d9")};;
         font-size: 16px;
         font-weight: 500;
         list-style-type: none;

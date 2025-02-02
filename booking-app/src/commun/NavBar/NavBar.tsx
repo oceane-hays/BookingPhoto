@@ -3,7 +3,7 @@ import {NavBarProps} from "../../types.ts";
 
 export default function NavBar({ handleNav, scrolled } : NavBarProps) {
 
-    const block : string[] = ['À PROPOS', 'PORTFOLIO', 'TARIFS', 'CONTACT']
+    const block : string[] = ['À PROPOS', 'TARIFS', 'CONTACT']
 
     return (
         <StyledDivision scrolled={scrolled}>

@@ -21,7 +21,6 @@ function Home() {
             <Header handleNav={handleNav} />
             <Front />
             <AboutMe />
-            <Portfolio />
             <Prices />
             <Contact />
             <Footer />
