@@ -1,0 +1,57 @@
+{
+  "1": {
+    "title": "Shooting Birthday, Famille, Groupe, Privé",
+    "prix": "215$",
+    "tenue": "Une tenue",
+    "temps": "50 min",
+    "lieu": "Séance en studio sur fond blanc",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "7 photos éditées et livrées sous format numérique."
+  },
+  "2": {
+    "title": "Shooting Maternité",
+    "prix": "215$",
+    "tenue": "Une tenue, non inclus",
+    "temps": "50 min",
+    "lieu": "Séance en studio sur fond blanc",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "7 photos éditées et livrées sous format numérique."
+  },
+  "3": {
+    "title": "Shooting Event",
+    "prix": "350$",
+    "tenue": "Pas de tenue",
+    "temps": "2h minimum",
+    "lieu": "Lieu de l'évènement, veuillez vous rassurer que les appareils photos professionnelles et les flash sont autorisés dans la pièce.",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "Toutes les photos sont retouchées sous un même style et au goût du client."
+  },
+  "4": {
+    "title": "Shooting Couple | Engagement",
+    "prix": "370$",
+    "tenue": "Maximum de 2 tenues",
+    "temps": "1 heure",
+    "lieu": "Lieu de l'évènement",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "15 photos éditées et remisent au client."
+  },
+  "5": {
+    "title": "Shooting Sport (soccer, basket...)",
+    "prix": "399$",
+    "tenue": "Une tenue",
+    "temps": "1h30, partie de jeu",
+    "lieu": "Séance en studio sur fond blanc",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "Nombre de photos ilimités retouchées dans le même style et livrées sous format numérique."
+  },
+  "6": {
+    "title": "Shooting Exterieur",
+    "prix": "185$",
+    "tenue": "Pas de tenue",
+    "temps": "50 min",
+    "lieu": "Séance en studio sur fond blanc",
+    "livraison": "Livraison des photos dans un délai de 6 jours ouvrables",
+    "description" : "6 photos éditées et et remisent au clients."
+  }
+
+}

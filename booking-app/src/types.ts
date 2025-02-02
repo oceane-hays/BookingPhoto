@@ -26,3 +26,13 @@ export interface NavBarProps {
     handleNav?: () => void;
     scrolled?: boolean;
 }
+
+export interface PricesCardProps {
+    title: string
+    prix: string
+    tenue: string
+    temps: string
+    lieu: string
+    livraison: string
+    description: string
+}

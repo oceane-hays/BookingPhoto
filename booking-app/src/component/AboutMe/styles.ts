@@ -69,5 +69,9 @@ export const StyledPolicyDisplay = styled.div`
             font-family: Eleanor, serif;
         }
     }
+    
+    .last-child {
+        border-right: none;
+    }
 `
 

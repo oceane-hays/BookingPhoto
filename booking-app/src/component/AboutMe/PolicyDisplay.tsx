@@ -9,14 +9,14 @@ export default function PolicyDisplay() {
                 <h2>Consultation</h2>
                 <p>
                     Tout le monde doit consulter avant de réserver un service à :
-                    <a href={'mailto:mcchic_photographie@outlook.com'}> mcchic_photographie@outlook.com</a> Si vous préférez
+                    <a href={'mailto:mcchic_photographie@outlook.com'}> mcchic_photographie@outlook.com</a>. Si vous préférez
                     être appelé, envoyez-nous d'abord un message et nous trouverons un moment pour nous parler.
                 </p>
             </div>
 
             {/* Deposit Section */}
             <div>
-            <h2>Depot</h2>
+            <h2>Dépot</h2>
                 <p>
                     Un dépôt variable est exigé pour chaque prestation afin de garantir la date et l’heure de la session. Le restant du solde est dû 72 heures avant la séance. N’hésitez pas à nous demander si ces options fonctionnent pour vous.
                 </p>
@@ -34,7 +34,7 @@ export default function PolicyDisplay() {
             </div>
 
             {/* Cancellations Section */}
-            <div>
+            <div className="last-child">
                 <h2>Annulation</h2>
                 <p>
                     Si vous ne pouvez pas assister à votre séance photo, tous les dépôts seront considérés comme des frais d'annulation. Si la séance doit être reportée pour une quelconque raison, des frais de report de 50 $ seront ajoutés à votre facture actuelle.
